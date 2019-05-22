@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <title>Book</title>
+  <style>
+    .success, .error{
+      color: white;
+      padding: 5px;
+      margin: 5px 0 15px 0;
+      /* width: 77vw;
+      height: 10vh;*/
+      border-radius: 5px;
+      /* box-shadow: 200px 200px 200px; */
+      /* transition: all 2s 1s ease-out; */
+    }
+    .success{background: green;}
+    .error{background: red;}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Add book</h1>
+    
+    <form action="" id="book-form">
+      <label for="title">Title</label>
+      <input class="u-full-width" type="text" placeholder="Harry Potter and the Philosopher's Stone" id="title">
+      <label for="author">Author</label>
+      <input class="u-full-width" type="text" placeholder="J. K. Rowling" id="author">
+      <label for="isbn">ISBN no.</label>
+      <input class="u-full-width" type="text" placeholder="9788498388947" id="isbn">
+      <input class="button-primary u-full-width" type="submit" value="Submit">
+    </form>
+
+    <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN no.</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+      </table>
+
+
+
+  </div>
+
+  <script src="appES6.js"></script>
+</body>
+</html>
