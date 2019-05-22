@@ -8,7 +8,7 @@ loadEventListeners();
 
 
 function loadEventListeners() {
-  document.addEventListener("DOMContentLoaded", loadTasks)
+  document.addEventListener("DOMContentLoaded", loadTasks);
   taskForm.addEventListener("submit",addNewTask);
   taskList.addEventListener("click",delTask);
   clearTaskBtn.addEventListener("click",clearAll);
